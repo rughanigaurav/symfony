@@ -1,6 +1,6 @@
 FROM php:7.4-fpm
 
-# Install necessary PHP extensions
+# Install PHP extensions
 RUN apt-get update && apt-get install -y \
     libzip-dev \
     unzip \
@@ -14,10 +14,8 @@ WORKDIR /var/www/symfony
 
 # Copy composer.json and composer.lock (if it exists) to the container
 COPY ../../composer.json ./
-# Optionally copy composer.lock if it exists
-# COPY composer.lock ./
 
-# Install Symfony and other PHP libraries
+# Install Symfony libraries
 RUN composer install
 
 EXPOSE 9000
