@@ -1,0 +1,15 @@
+{
+  "require": {
+    "php": "^7.4",
+    "symfony/symfony": "^4.4",
+    "doctrine/orm": "^2.7",
+    "doctrine/doctrine-bundle": "^2.4",
+    "symfony/twig-bundle": "^4.4",
+    "symfony/asset": "^4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}

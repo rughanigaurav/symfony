@@ -1,0 +1,8 @@
+FROM mysql:5.7
+
+ENV MYSQL_ROOT_PASSWORD=root
+ENV MYSQL_DATABASE=symfony_db
+ENV MYSQL_USER=symfony_user
+ENV MYSQL_PASSWORD=symfony_password
+
+EXPOSE 3306
