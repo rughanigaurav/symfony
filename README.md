@@ -81,17 +81,17 @@ $ git clone https://github.com/rughanigaurav/symfony.git
 
 ## Build the Docker
 
-##### run the Command in the project folder(where docker-compose.yml exist) from terminal :
+### run the Command in the project folder(where docker-compose.yml exist) from terminal :
 
 ```bash
 $ docker-compose build
 ```
 
-#### run the Docker
+### run the Docker
 
-<!-- ```bash
+```bash
 $ docker-compose up
-``` -->
+```
 
 #### Notes
 
