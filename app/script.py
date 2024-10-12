@@ -1,1 +1,1 @@
-print("Hello, World! This is a test script running inside the Docker container.")
+print("Hello, World! From Python container.")
