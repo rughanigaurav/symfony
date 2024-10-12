@@ -100,3 +100,5 @@ $ docker-compose up
 2.  your phpmyadmin will be accessible on http://localhost:8081
 
 3.  Symfony project directory should src/public/ and Python project directory should be app/
+
+#### Thank You
