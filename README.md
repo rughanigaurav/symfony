@@ -15,9 +15,7 @@
 
 6.  your phpmyadmin will be accessible on http://localhost:8081
 
-7.  Symfony project directory should src/public/
-
-8.  Python project directory should be app/
+7.  Symfony project directory should src/public/ and Python project directory should be app/
 
 # Steps to install Install Docker and Docker Composer in Ubuntu
 
@@ -99,6 +97,4 @@ $ docker-compose up
 
 2.  your phpmyadmin will be accessible on http://localhost:8081
 
-3.  Symfony project directory should src/public/
-
-4.  Python project directory should be app/
+3.  Symfony project directory should src/public/ and Python project directory should be app/
